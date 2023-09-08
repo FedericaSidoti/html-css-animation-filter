@@ -98,3 +98,31 @@
     75% {transform: rotate(300deg);}
     100% {transform: rotate(0deg);}
 }
+
+/*Esercizio 12*/
+
+.ex-12-button:hover .ex-12-top-white {
+    animation-name: leftoright ;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation-name: rightoleft;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+@keyframes leftoright{
+    0% {left: 10%;}
+    75% {left: 85%;}
+    100% {left: 10%;}
+}
+
+@keyframes rightoleft{
+    0% {right: 20%;}
+    75% {right: 85%;}
+    100% {right: 20%;}
+}
