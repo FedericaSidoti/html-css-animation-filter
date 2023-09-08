@@ -126,3 +126,32 @@
     75% {right: 85%;}
     100% {right: 20%;}
 }
+
+/*Esercizio 13*/
+.ex-13-button:hover .ex-13-top-white {
+    animation-name: leftobottom ;
+    animation-duration: 1.5s;
+    animation-iteration-count: 2;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation-name: rightotop;
+    animation-duration: 1.5s;
+    animation-iteration-count: 2;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+}
+
+@keyframes leftobottom{
+    0% {left: 10%;}
+    50% {left: 100%; right: 0;}
+    100% {translate: 0 55px; left: 100%;}
+}
+
+@keyframes rightotop{
+    0% {right: 20%;}
+    50% {right: 100%;left: 10;}
+    100% {translate: 0 -55px; right: 100%;}
+}
