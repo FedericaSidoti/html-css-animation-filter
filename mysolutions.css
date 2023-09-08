@@ -50,7 +50,7 @@
 /*Esercizio 7*/
 
 .ex-7-img:hover {
-    filter: sepia(1);
+    filter: sepia(1) grayscale(0.1);
     transition: 1s;
 }
 
