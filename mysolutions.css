@@ -84,3 +84,17 @@
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
 }
+
+/*Esercizio 11*/
+
+.ex-11-icon:hover {
+    animation-name: spin260 ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes spin260 {
+    0% {transform: rotate(0deg);}
+    75% {transform: rotate(300deg);}
+    100% {transform: rotate(0deg);}
+}
