@@ -40,3 +40,9 @@
     transform: scale(0.5);
     transition: 1s;
 }
+
+/*Esercizio 6*/
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
