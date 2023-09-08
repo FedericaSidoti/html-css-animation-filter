@@ -61,3 +61,26 @@
     border-radius: 20px;
     transition: 1.5s;
 }
+
+/*Esercizio 9*/
+
+.ex-9-img:hover {
+    filter: sepia(1) grayscale(0.1);
+    border-radius: 20px;
+    transition: 2s;
+    transform: scale(1.5);
+}
+
+/*Esercizio 10*/
+
+.ex-10-icon {
+    animation-name: spin ;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
