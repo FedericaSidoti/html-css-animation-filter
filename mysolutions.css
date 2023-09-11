@@ -117,13 +117,13 @@
 
 @keyframes leftoright{
     0% {left: 10%;}
-    75% {left: 85%;}
+    50% {left: 85%;}
     100% {left: 10%;}
 }
 
 @keyframes rightoleft{
     0% {right: 20%;}
-    75% {right: 85%;}
+    50% {right: 85%;}
     100% {right: 20%;}
 }
 
